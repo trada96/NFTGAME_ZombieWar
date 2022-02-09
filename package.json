@@ -1,0 +1,18 @@
+{
+    "name": "martket place",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "merge": "node node_modules/truffle-flattener ./contracts/TradaMarket.sol > TradaMarket-merge.sol"
+    },
+    "dependencies": {
+        
+        "@openzeppelin/contracts": "^4.1.0",
+        "truffle-flattener": "^1.5.0"
+    }
+}
